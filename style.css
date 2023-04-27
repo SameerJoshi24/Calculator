@@ -1,0 +1,55 @@
+body{
+    background-image:url(https://i.ibb.co/dLqsL0r/pexels-gabriel-peter-696644.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+#container {
+    display: grid;
+    justify-content:space-around;
+    align-content:space-around;
+}
+.output {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 150px;
+    background-color: #000000d5;
+    color: white;
+}
+#input {
+    height: 100px;
+    width: 359px;
+    font-size: 30px;
+    background: transparent;
+    text-align: right;
+    color: white;
+}
+.input::placeholder {
+    color: white;
+}
+.row {
+    margin: 2px 0px;
+}
+button {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 25%;
+    border: none;
+    box-shadow: 10 10 10;;
+    color: white;
+    background: #00000038;
+}
+button:hover {
+    background-color: #00000058 ;
+}
+.tworow {
+    width: 204px;
+}
