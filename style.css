@@ -50,6 +50,17 @@ button {
 button:hover {
     background-color: #00000058 ;
 }
+.operation {
+    color: rgb(8, 251, 8);
+}
 .tworow {
     width: 204px;
+}
+.last {
+    text-align: center;
+    display: block;
+}
+img {
+    height: 50px;
+    /* display: block; */
 }
